@@ -1,13 +1,12 @@
 {
-  "domain": "uponor",
-  "name": "Uponor",
+  "domain": "uponor-multi",
+  "name": "Uponor-multi",
   "documentation": "https://github.com/asev/homeassistant-uponor",
   "issue_tracker": "https://github.com/asev/homeassistant-uponor/issues",
-  "version": "0.9.2",
+  "version": "0.9.2-multi",
   "config_flow": true,
   "dependencies": [],
-  "codeowners": ["@asev"],
-  "requirements": ["UponorJnap==0.1"],
-  "integration_type": "device"
+  "codeowners": ["@asev-multi"],
+  "requirements": ["UponorJnap==0.1"]
 }
 
