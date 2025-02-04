@@ -1,5 +1,6 @@
 from datetime import timedelta
 
+CONF_UNIQUE_ID = "unique_id"
 DOMAIN = "uponor"
 
 SIGNAL_UPONOR_STATE_UPDATE = "uponor_state_update"
