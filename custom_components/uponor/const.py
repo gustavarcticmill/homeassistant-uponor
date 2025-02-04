@@ -1,7 +1,7 @@
 from datetime import timedelta
 
 CONF_UNIQUE_ID = "unique_id"
-DOMAIN = "uponor"
+DOMAIN = "uponor-multi"
 
 SIGNAL_UPONOR_STATE_UPDATE = "uponor_state_update"
 SCAN_INTERVAL = timedelta(seconds=30)

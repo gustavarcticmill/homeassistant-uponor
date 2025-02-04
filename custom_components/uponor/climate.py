@@ -61,7 +61,7 @@ class UponorClimate(ClimateEntity):
     @property
     def device_info(self):
         return {
-            "identifiers": {(self.unique_instance_id, self._state_proxy.get_thermostat_id(self._thermostat))},
+            "identifiers": {(self._unique_instance_id, self._state_proxy.get_thermostat_id(self._thermostat))},
             "name": self._name,
             "manufacturer": DEVICE_MANUFACTURER,
             "model": self._state_proxy.get_model(),
